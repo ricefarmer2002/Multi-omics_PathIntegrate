@@ -11,11 +11,20 @@ This project integrates metabolomics and transcriptomics data to characterize mo
 
 A combination of high-throughput untargeted metabolomics (LC-MS/MS) and RNA-seq was employed. The project involves pre-processing, annotation, and integrative analysis, using both R and Python workflows.
 
-Experimental Design
-Organisms: Four distinct Streptomyces strains.
 
+
+## Pipeline Overview
+
+![image](https://github.com/user-attachments/assets/dcf7a011-62e4-4aef-8f5b-cbb9ab4b4dbb)
+Figure 1. Multi-omics pipeline. a) Normalisation, annotation and differential analysis of transcriptomic and metabolomic data. b) Multi-omics integration using block scores to predict the response variable.
+
+
+
+## Experimental Design
+Organisms: Four distinct Streptomyces strains.
 Setup: Interaction plates where strains were cultured in proximity to induce molecular responses.
 ![image](https://github.com/user-attachments/assets/9e8d564f-b78f-440d-a13d-f4d3581d9fa2)
+
 
 
 ## Data Types:
