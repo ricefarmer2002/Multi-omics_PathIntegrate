@@ -1,4 +1,9 @@
-# Overview
+# Multi-Omics Characterization of Streptomyces Strain Interactions
+Author: Samuel Rice
+Supervisor: Dr. Francesco Del Carratore
+Date: 2025
+
+##  Overview
 
 This project integrates metabolomics and transcriptomics data to characterize molecular changes during the interactions of four Streptomyces strains grown on interaction plates. The goal was to identify candidate genes, metabolites, and biological pathways potentially underlying antibacterial activity observed during co-cultivation.
 
@@ -108,5 +113,5 @@ Multi-omics integration to prioritize biological pathways linked to antibacteria
 Establishment of a reproducible workflow for future multi-omics integration studies.
 
 ### Acknowledgements
-This work was conducted as part of the MSc Bioinformatics research project at [Your University Name].
+This work was conducted as part of the MSc Bioinformatics research project at The University of Liverpool.
 Supervised by Dr. Francesco Del Carratore.
