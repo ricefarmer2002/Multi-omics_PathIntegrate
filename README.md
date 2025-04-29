@@ -1,4 +1,5 @@
-# Multi-Omics Characterization of Streptomyces Strain Interactions
+# Natures Crop Protection: A Multi-Omics Approach to Understanding Streptomyces Strain Interactions in Potato Scabies
+
 Author: Samuel Rice
 
 Supervisor: Dr. Francesco Del Carratore
