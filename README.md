@@ -1,7 +1,9 @@
 # Multi-Omics Characterization of Streptomyces Strain Interactions
 Author: Samuel Rice
+
 Supervisor: Dr. Francesco Del Carratore
-Date: 2025
+
+Date: 29/04/2025
 
 ##  Overview
 
