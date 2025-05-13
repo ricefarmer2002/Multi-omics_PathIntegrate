@@ -8,9 +8,9 @@ Date: 29/04/2025
 
 ##  Overview
 
-This project integrates metabolomics and transcriptomics data to characterize molecular changes during the interactions of four Streptomyces strains grown on interaction plates. The goal was to identify candidate genes, metabolites, and biological pathways potentially underlying antibacterial activity observed during co-cultivation.
+This project utilised multi-omics to integrate metabolomics and transcriptomics data, characterising molecular changes during the interactions of four Streptomyces strains (A, B, C, D) grown on interaction plates . The goal was to identify candidate genes, metabolites, and biological pathways potentially underlying strain interactions.
 
-A combination of high-throughput untargeted metabolomics (LC-MS/MS) and RNA-seq was employed. The project involves pre-processing, annotation, and integrative analysis, using both R and Python workflows.
+A combination of high-throughput untargeted metabolomics (LC-MS/MS) and RNA-seq was used to generate the data, with the pipeline involving pre-processing, annotation, and integrative analysis, using both R and Python workflows.
 
 
 
@@ -109,20 +109,24 @@ ipapy2
 ### How to Use
 Preprocess the metabolomics and transcriptomics datasets (.qmd files).
 
-Perform feature annotation (Annotations_metabolomics.qmd).
+Feature annotation with ipaPy2 (Annotations_metabolomics.qmd).
 
-Conduct pathway-based integration analysis (PathIntegrate_Analysis.ipynb).
+Annotate proteins with DIAMOND
 
-Annotate pathway results using ipaPy2_annotation code.ipynb.
+Normalisation (DESEQ2 and PQN)
 
-Each notebook is modular and can be executed independently following the order above.
+Differential analysis with Likelihood ratio test (LRT
+
+Pathway-based integration analysis (PathIntegrate_Analysis.ipynb).
+
+Each code file is independent and can be executed independently following the order above.
 
 ### Key Outcomes
 Identification of differential metabolites and genes between interacting strains.
 
-Multi-omics integration to prioritize biological pathways linked to antibacterial effects.
+Multi-omics integration to uncover biological pathways
 
-Establishment of a reproducible workflow for future multi-omics integration studies.
+Development of a reproducible workflow for future multi-omics integration studies (transcriptomics and metabolomics)
 
 ### Acknowledgements
 This work was conducted as part of the MSc Bioinformatics research project at The University of Liverpool.
