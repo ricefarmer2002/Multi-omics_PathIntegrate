@@ -115,7 +115,7 @@ Annotate proteins with DIAMOND
 
 Normalisation (DESEQ2 and PQN)
 
-Differential analysis with Likelihood ratio test (LRT
+Differential analysis with Likelihood ratio test (LRT)
 
 Pathway-based integration analysis (PathIntegrate_Analysis.ipynb).
 
